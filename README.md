@@ -1,10 +1,11 @@
 # Medical ChatBot API 
 * This repo contains the code required to deploy the medical chat bot which I have created using custom datasets collected and wrangled from multiple sources
-* The dataset is available on hugging face here -> [link](Mohammed-Altaf/medical-instruction-100k)
+* The dataset is available on hugging face here -> [link](https://huggingface.co/datasets/Mohammed-Altaf/medical-instruction-100k)
 * There are basically three different variants of the orginal model
 * * First one is a quantized 8bit model which this script usese
   * Second is adapters created using the above dataset on GPT-NEOX 20B MODEL,
   * Third are also adapters much finer one, trained on GCP TPU's, which I got for free 😅, for few days.
+  * Here is the Qlora Fine tuning [Script](https://www.kaggle.com/code/mohammedaltaf321/medical-chatbot) and the Hugging Face [Report](https://api.wandb.ai/links/mohammedaltaf4316/805j90g0)
 
   ## To Use this repo
   `git clone https://github.com/Mohammed-Altaf-01/medical-chatbot-api.git
